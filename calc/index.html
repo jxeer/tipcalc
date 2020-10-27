@@ -1,28 +1,26 @@
 <!DOCTYPE html>
 <html>
-  <head>
-    <meta charset="utf-8">
-    <title>Tip Calculator</title>
-    <link rel="stylesheet" type="text/css" href="style.css">
-  </head>
-
-
-  <body>
-    A simple Calculator
-    <div id="container">
-      <div id="calculator">
-        <div id="results">
-          <div id="history">
-            <p id="history value">9*9</p>
-          </div>
-          <div id="output">
-            <p id="output-value">81</p>
-          </div>
-        </div>
-        <div id="keyboard">
-          <button class="operator" id="clear">C</button>
+	<head>
+		<link rel="stylesheet" type="text/css" href="style.css">
+		<link href="https://fonts.googleapis.com/css?family=Open+Sans:600,700" rel="stylesheet">
+		<title>A simple calculator</title>
+	</head>
+	<body>
+    <h1> Xeer's Tip Calculator </h1>
+		<div id="container">
+			<div id="calculator">
+				<div id="result">
+					<div id="history">
+						<p id="history-value"></p>
+					</div>
+					<div id="output">
+						<p id="output-value"></p>
+					</div>
+				</div>
+				<div id="keyboard">
+					<button class="operator" id="clear">C</button>
 					<button class="operator" id="backspace">CE</button>
-					<button class="operator" id="pc">%</button>
+					<button class="operator" id="%">%</button>
 					<button class="operator" id="/">&#247;</button>
 					<button class="number" id="7">7</button>
 					<button class="number" id="8">8</button>
@@ -40,10 +38,9 @@
 					<button class="number" id="0">0</button>
 					<button class="empty" id="empty"></button>
 					<button class="operator" id="=">=</button>
-        </div>
-      </div>
-    </div>
-
-    <script src="script.js"></script>
-  </body>
+				</div>
+			</div>
+		</div>
+		<script src="script.js"></script>
+	</body>
 </html>
