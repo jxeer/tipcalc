@@ -1,12 +1,16 @@
 body{
 	font-family: 'Open Sans',sans-serif;
 	background-color: black;
+  background-image: url('https://ak.picdn.net/shutterstock/videos/31850179/thumb/1.jpg');
 }
 
 h1 {
   color: white;
   text-align: center;
+  font-family: 'Orbitron', sans-serif;
+  font-weight: bold;
 }
+
 #container {
   height: 550px;
   width: 1000px;
